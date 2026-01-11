@@ -3,6 +3,7 @@
 #include "ViewRegistry.h"
 #include <fstream>
 #include <sstream>
+#include "Renderer.h"
 
 extern "C" {
 #include "../js/quickjs/quickjs.h"
@@ -58,9 +59,9 @@ static JSValue js_createView(JSContext *ctx,
 
     View* view = ViewRegistry::create(type);
 
-    std::cout << "[Blink] createView "
-              << type
-              << " id=" << view->id << std::endl;
+    if(!ViewRegistry::getRoot()){
+        ViewRegistry::setRoot(view);
+    }
 
     JS_FreeCString(ctx, type);
 
@@ -92,6 +93,22 @@ static JSValue js_appendChild(JSContext *ctx, JSValueConst, int argc, JSValueCon
     return JS_UNDEFINED;
 }
 
+static JSValue js_render(JSContext *ctx,
+                         JSValueConst,
+                         int,
+                         JSValueConst*) {
+
+    View* root = ViewRegistry::getRoot();
+    if (!root)
+        return JS_ThrowReferenceError(ctx, "No root view");
+
+    std::cout << "\n[Blink] Render tree\n";
+    Renderer::render(root);
+
+    return JS_UNDEFINED;
+}
+
+
 /* =========================
    Main runtime
    ========================= */
@@ -114,6 +131,14 @@ int main() {
 
     /* Global object */
     JSValue global = JS_GetGlobalObject(ctx);
+    JSValue blink = JS_NewObject(ctx);
+
+    JS_SetPropertyStr(
+            ctx,
+            blink,
+            "render",
+            JS_NewCFunction(ctx, js_render, "render", 0)
+            );
 
     /* print(...) */
     JS_SetPropertyStr(
@@ -124,8 +149,8 @@ int main() {
     );
     
 
-    /* Blink namespace */
-    JSValue blink = JS_NewObject(ctx);
+    /* Blink namespace 
+    JSValue blink = JS_NewObject(ctx); */
 
     JS_SetPropertyStr(
         ctx,

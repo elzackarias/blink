@@ -10,6 +10,7 @@ add_compile_definitions(CONFIG_VERSION=\"Blink-0.1\")
 add_executable(blink
     core/runtime/BlinkRuntime.cpp
     core/runtime/ViewRegistry.cpp
+    core/runtime/Renderer.cpp
     core/js/quickjs/quickjs.c
     core/js/quickjs/libunicode.c
     core/js/quickjs/libregexp.c

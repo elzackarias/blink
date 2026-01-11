@@ -85,12 +85,12 @@ clean: CMakeFiles/blink.dir/clean
 CMakeFiles/blink.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target blink"
 .PHONY : CMakeFiles/blink.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jzacarias/blink/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jzacarias/blink/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/blink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jzacarias/blink/build/CMakeFiles 0
 .PHONY : CMakeFiles/blink.dir/rule
@@ -102,7 +102,7 @@ blink: CMakeFiles/blink.dir/rule
 # codegen rule for target.
 CMakeFiles/blink.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Finished codegen for target blink"
 .PHONY : CMakeFiles/blink.dir/codegen
 
 # clean rule for target.

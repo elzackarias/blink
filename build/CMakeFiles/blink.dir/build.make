@@ -100,10 +100,24 @@ CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jzacarias/blink/core/runtime/ViewRegistry.cpp -o CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.s
 
+CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o: /Users/jzacarias/blink/core/runtime/Renderer.cpp
+CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o -MF CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o.d -o CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o -c /Users/jzacarias/blink/core/runtime/Renderer.cpp
+
+CMakeFiles/blink.dir/core/runtime/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/blink.dir/core/runtime/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jzacarias/blink/core/runtime/Renderer.cpp > CMakeFiles/blink.dir/core/runtime/Renderer.cpp.i
+
+CMakeFiles/blink.dir/core/runtime/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/blink.dir/core/runtime/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jzacarias/blink/core/runtime/Renderer.cpp -o CMakeFiles/blink.dir/core/runtime/Renderer.cpp.s
+
 CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o: /Users/jzacarias/blink/core/js/quickjs/quickjs.c
 CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o -MF CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o.d -o CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o -c /Users/jzacarias/blink/core/js/quickjs/quickjs.c
 
 CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.s: cmake_force
 CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o: /Users/jzacarias/blink/core/js/quickjs/libunicode.c
 CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o -MF CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o.d -o CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o -c /Users/jzacarias/blink/core/js/quickjs/libunicode.c
 
 CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.s: cmake_force
 CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o: /Users/jzacarias/blink/core/js/quickjs/libregexp.c
 CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o -MF CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o.d -o CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o -c /Users/jzacarias/blink/core/js/quickjs/libregexp.c
 
 CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.s: cmake_force
 CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o: /Users/jzacarias/blink/core/js/quickjs/cutils.c
 CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o -MF CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o.d -o CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o -c /Users/jzacarias/blink/core/js/quickjs/cutils.c
 
 CMakeFiles/blink.dir/core/js/quickjs/cutils.c.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/blink.dir/core/js/quickjs/cutils.c.s: cmake_force
 CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o: /Users/jzacarias/blink/core/js/quickjs/dtoa.c
 CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o -MF CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o.d -o CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o -c /Users/jzacarias/blink/core/js/quickjs/dtoa.c
 
 CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.i: cmake_force
@@ -174,6 +188,7 @@ CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.s: cmake_force
 blink_OBJECTS = \
 "CMakeFiles/blink.dir/core/runtime/BlinkRuntime.cpp.o" \
 "CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.o" \
+"CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o" \
 "CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o" \
 "CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o" \
 "CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o" \
@@ -185,6 +200,7 @@ blink_EXTERNAL_OBJECTS =
 
 blink: CMakeFiles/blink.dir/core/runtime/BlinkRuntime.cpp.o
 blink: CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.o
+blink: CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o
 blink: CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o
 blink: CMakeFiles/blink.dir/core/js/quickjs/libunicode.c.o
 blink: CMakeFiles/blink.dir/core/js/quickjs/libregexp.c.o
@@ -192,7 +208,7 @@ blink: CMakeFiles/blink.dir/core/js/quickjs/cutils.c.o
 blink: CMakeFiles/blink.dir/core/js/quickjs/dtoa.c.o
 blink: CMakeFiles/blink.dir/build.make
 blink: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable blink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jzacarias/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable blink"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -5,4 +5,4 @@ const btn  = Blink.createView("Button");
 Blink.appendChild(root, text);
 Blink.appendChild(root, btn);
 
-print("root:", root);
+Blink.render();

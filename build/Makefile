@@ -273,6 +273,30 @@ core/runtime/BlinkRuntime.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/core/runtime/BlinkRuntime.cpp.s
 .PHONY : core/runtime/BlinkRuntime.cpp.s
 
+core/runtime/Renderer.o: core/runtime/Renderer.cpp.o
+.PHONY : core/runtime/Renderer.o
+
+# target to build an object file
+core/runtime/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o
+.PHONY : core/runtime/Renderer.cpp.o
+
+core/runtime/Renderer.i: core/runtime/Renderer.cpp.i
+.PHONY : core/runtime/Renderer.i
+
+# target to preprocess a source file
+core/runtime/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/core/runtime/Renderer.cpp.i
+.PHONY : core/runtime/Renderer.cpp.i
+
+core/runtime/Renderer.s: core/runtime/Renderer.cpp.s
+.PHONY : core/runtime/Renderer.s
+
+# target to generate assembly for a file
+core/runtime/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/core/runtime/Renderer.cpp.s
+.PHONY : core/runtime/Renderer.cpp.s
+
 core/runtime/ViewRegistry.o: core/runtime/ViewRegistry.cpp.o
 .PHONY : core/runtime/ViewRegistry.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... core/runtime/BlinkRuntime.o"
 	@echo "... core/runtime/BlinkRuntime.i"
 	@echo "... core/runtime/BlinkRuntime.s"
+	@echo "... core/runtime/Renderer.o"
+	@echo "... core/runtime/Renderer.i"
+	@echo "... core/runtime/Renderer.s"
 	@echo "... core/runtime/ViewRegistry.o"
 	@echo "... core/runtime/ViewRegistry.i"
 	@echo "... core/runtime/ViewRegistry.s"

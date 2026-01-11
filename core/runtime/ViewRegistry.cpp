@@ -14,3 +14,13 @@ View* ViewRegistry::create(const std::string& type){
 View* ViewRegistry::get(int id){
     return views.count(id) ? views[id] : nullptr;
 }
+
+View* ViewRegistry::root = nullptr;
+
+void ViewRegistry::setRoot(View* v){
+    root = v;
+}
+
+View* ViewRegistry::getRoot(){
+    return root;
+}

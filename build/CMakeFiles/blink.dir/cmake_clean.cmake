@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/blink.dir/core/js/quickjs/quickjs.c.o.d"
   "CMakeFiles/blink.dir/core/runtime/BlinkRuntime.cpp.o"
   "CMakeFiles/blink.dir/core/runtime/BlinkRuntime.cpp.o.d"
+  "CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o"
+  "CMakeFiles/blink.dir/core/runtime/Renderer.cpp.o.d"
   "CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.o"
   "CMakeFiles/blink.dir/core/runtime/ViewRegistry.cpp.o.d"
   "blink"
