@@ -7,7 +7,7 @@
 - Un **árbol de vistas propio**
 - Un **renderer desacoplado** (actualmente por consola)
 
-El objetivo de Blink **no es competir**, sino **entender cómo funcionan realmente los frameworks modernos por dentro**.
+El objetivo de Blink es **entender cómo funcionan realmente los frameworks modernos por dentro**.
 
 ---
 
